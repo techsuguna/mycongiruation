@@ -8,10 +8,8 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      ddl-auto: update
+
       
-entitymanager:
- packagesToScan: com.myapp.rentcloud.model
  
 
 
